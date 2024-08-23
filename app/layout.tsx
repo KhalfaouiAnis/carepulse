@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans as FontSans } from "next/font/google";
 import { ThemeProvider } from "next-themes";
+import "react-datepicker/dist/react-datepicker.css";
+import "react-phone-number-input/style.css";
 import "./globals.css";
 
 import { cn } from "@/lib/utils";
